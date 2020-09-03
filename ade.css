@@ -1,0 +1,179 @@
+body{
+	margin:0;
+	font-family: cursive;
+	user-select:none;
+	-moz-user-select:none;
+ 	-ms-user-select:none;
+ 	-khtml-user-select:none;
+ 	-webkit-user-select:none
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	text-align: center;
+	color: white;
+}
+.back{
+	background-image: url(http://gg.gg/gambarhead);
+	background-size:cover;
+	height: 300px;
+	padding: 10px;
+}
+.back h1{
+	margin-top: 40px;
+	letter-spacing: 5px;
+	font-size: 36pt;
+}
+.back h1,p{
+	cursor: default;
+}
+
+.btn{
+	width: 80px;
+	display: inline-block;
+	color: white;
+	padding: 10px 20px;
+	margin: 20px 20px;
+	border-radius: 10px
+}
+
+.fb{
+	background-color: rgba(0,0,255,0.6);
+}
+.fb:active{
+	background-color: rgb(0,0,255);
+}
+
+.ig{
+	background-color: rgba(153,0,153,0.6);
+}
+.ig:active{
+	background-color: rgb(153,0,153);
+}
+
+.yt{
+	background-color: rgba(255,0,0,0.6);
+}
+.yt:active{
+	background-color: rgb(255,0,0);
+}
+
+.heading{
+	position: fixed;
+	z-index: 10;
+	background-color: rgba(0,0,0,0.7);
+	height: 65px;
+	margin: 0;
+	text-align: left;
+	width: 100%
+}
+
+.h-left{
+	float: left;
+	line-height: 65px;
+	padding: 0 40px;
+	font-size: 25pt;
+}
+.h-left a{
+	font-weight: 600;
+	color: rgba(0,0,0,0);
+	-webkit-text-stroke:0.5px orange;
+}
+.h-left a:hover{
+	color: orange;
+	-webkit-text-stroke:none;
+	transition: all 0.4s;
+}
+
+.h-right{
+	float: right;
+	line-height: 65px;
+	margin-right: 20px;
+}
+.h-right a{
+	padding: 0 20px;
+	display: block;
+	float: left;
+	color: orange;
+	margin-left: 2px;
+}
+.h-right a:hover{
+	background-color:rgba(245,171,53,0.7);
+	color: black; 
+}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.container{
+	margin: 0 auto;
+	padding: 0 25px;
+	width: 1170px;
+}
+
+.main-menu{
+	margin: 100px auto;
+	height:300px;
+}
+.menu{
+	width: 25%;
+	float: left;
+}
+.menu-icon{
+	margin: 50px;
+	position: relative;
+}
+.menu-icon p{
+	width: 100%;
+	position: absolute;
+
+}
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+	height: 120px;
+	background-color: black;
+	color:white;
+	padding: 20px;
+}
+
+.f-left{
+	float: left;
+	font-size: 25pt;
+	line-height: 120px;
+	padding: 0 40px;
+}
+.f-left a{
+	color: orange;
+}
+
+.f-right{
+	float: right;
+	padding: 0 40px;
+}
+.f-right ul li a{
+	color: orange;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.back-sch{
+	background-image: url(http://gg.gg/headersch);
+	background-size:cover;
+	height: 300px;
+	padding: 10px;
+}
+.back-sch h1{
+	margin-top: 40px;
+	letter-spacing: 5px;
+	font-size: 36pt;
+}
+.back-sch h1,p{
+	cursor: default;
+}
