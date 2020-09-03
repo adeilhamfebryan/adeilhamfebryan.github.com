@@ -1,4 +1,6 @@
 body{
+	background-image: url(http://gg.gg/pattern4);
+	background-size: auto;
 	margin:0;
 	font-family: cursive;
 	user-select:none;
@@ -19,6 +21,7 @@ a{
 header{
 	text-align: center;
 	color: white;
+	box-shadow: 0 5px 10px black;
 }
 .back{
 	background-image: url(http://gg.gg/gambarhead);
@@ -67,6 +70,7 @@ header{
 
 .heading{
 	position: fixed;
+	top: 0;
 	z-index: 10;
 	background-color: rgba(0,0,0,0.7);
 	height: 65px;
@@ -128,19 +132,33 @@ header{
 .menu-icon{
 	margin: 50px;
 	position: relative;
+	color: white;
+}
+.menu-icon:hover{
+	color: orange;
 }
 .menu-icon p{
+	font-size: 16pt;
 	width: 100%;
 	position: absolute;
-
+	top: 65px;
+	text-align: center;
 }
+
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 footer{
 	height: 120px;
 	background-color: black;
-	color:white;
 	padding: 20px;
+	box-shadow: 0 -5px 10px black;
+}
+
+.f a{
+	color: orange;
+}
+.f a:hover{
+	color:white;
 }
 
 .f-left{
@@ -149,16 +167,10 @@ footer{
 	line-height: 120px;
 	padding: 0 40px;
 }
-.f-left a{
-	color: orange;
-}
 
 .f-right{
 	float: right;
 	padding: 0 40px;
-}
-.f-right ul li a{
-	color: orange;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------*/
