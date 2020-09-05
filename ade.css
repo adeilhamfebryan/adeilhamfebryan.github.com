@@ -19,11 +19,13 @@ a{
 }
 
 header{
+	width: 100%;
 	text-align: center;
 	color: white;
 	box-shadow: 0 5px 10px black;
 }
 .back{
+	width: 100%;
 	background-image: url(http://gg.gg/gambarhead);
 	background-size:cover;
 	height: 300px;
@@ -118,7 +120,7 @@ header{
 .container{
 	margin: 0 auto;
 	padding: 0 25px;
-	width: 1170px;
+	width: 90%;
 }
 
 .main-menu{
@@ -148,6 +150,7 @@ header{
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 footer{
+	width: 100%;
 	height: 120px;
 	background-color: black;
 	padding: 20px;
@@ -180,6 +183,7 @@ footer{
 	background-size:cover;
 	height: 300px;
 	padding: 10px;
+	width: 100%;
 }
 .back-sch h1{
 	margin-top: 40px;
@@ -188,4 +192,37 @@ footer{
 }
 .back-sch h1,p{
 	cursor: default;
+}
+
+.content{
+	width: 60%;
+	margin:0px auto 100px auto;
+}
+.content-item{
+	height: 600px;
+	width: 100%;
+	border-radius: 30px;
+	background-color: #1e1f1e;
+	color: white;
+}
+.content-item h2{
+	margin: 30px auto;
+	padding: 20px 20px 5px 20px;
+	width: 90%;
+	border-bottom: 1px solid white;
+}
+.content-item img{
+	padding: 0 20%;
+	min-width: 70%
+	margin:auto;
+}
+.content-item p{
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px 20px 40px 20px;
+	border-top: 1px solid white;
+}
+.content-item h1{
+	font-size: 128pt;
+	text-align: center;
 }
