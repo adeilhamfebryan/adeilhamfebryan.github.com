@@ -1,5 +1,5 @@
 body{
-	background-image: url(http://gg.gg/pattern4);
+	background-image: url(image/Pattern/pattern3.png);
 	background-size: auto;
 	margin:0;
 	font-family: cursive;
@@ -7,9 +7,8 @@ body{
 	-moz-user-select:none;
  	-ms-user-select:none;
  	-khtml-user-select:none;
- 	-webkit-user-select:none
+ 	-webkit-user-select:none;
 }
-
 li{
 	list-style: none;
 }
@@ -25,8 +24,7 @@ header{
 	box-shadow: 0 5px 10px black;
 }
 .back{
-	width: 100%;
-	background-image: url(http://gg.gg/gambarhead);
+	background-image: url(image/Header/home.jpg);
 	background-size:cover;
 	height: 300px;
 	padding: 10px;
@@ -78,7 +76,7 @@ header{
 	height: 65px;
 	margin: 0;
 	text-align: left;
-	width: 100%
+	width: 100%;
 }
 
 .h-left{
@@ -147,6 +145,80 @@ header{
 	text-align: center;
 }
 
+.home-menu{
+	width: 65%;
+	margin:50px auto;
+}
+.list-menu{
+	display: flex;
+	flex-wrap: wrap;
+}
+.list-menu li{
+	text-align: center;
+	margin: 15px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: orange;
+	flex: auto;
+	width: 40%;
+}
+.list-menu li:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+.list-menu li a{
+	color: white;
+	font-size: 24pt;
+}
+
+.content{
+	width: 70%;
+	margin:0px auto 100px auto;
+}
+.content-item{
+	height: 100%;
+	width: 100%;
+	border-radius: 30px;
+	background-color: #1e1f1e;
+	color: white;
+}
+.content-item h2{
+	margin: 30px auto 0 auto;
+	padding: 20px 20px 5px 20px;
+	width: 90%;
+	border-bottom: 1px solid white;
+}
+.content-item h2 span{
+	color: red;
+}
+.content-item img{
+	padding: 2% 15%;
+	width: 70%;
+	object-fit: contain;
+}	
+.content-item p{
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px 20px 40px 20px;
+	border-top: 1px solid white;
+}
+.content-item p a{
+	color: orange;
+}
+.content-item p a:hover{
+	color: grey;
+}
+.content-spacer{
+	color: white;
+	background: #1e1f1e;
+	height: 100%;
+	width: 100%;
+	border-radius: 30px;
+	text-align: center;
+}
+.content-spacer h2{
+	padding: 25px 40px;
+}
+
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 footer{
@@ -179,7 +251,7 @@ footer{
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 .back-sch{
-	background-image: url(http://gg.gg/headersch);
+	background-image: url(image/Header/sch.jpg);
 	background-size:cover;
 	height: 300px;
 	padding: 10px;
@@ -194,35 +266,41 @@ footer{
 	cursor: default;
 }
 
-.content{
-	width: 60%;
-	margin:0px auto 100px auto;
-}
-.content-item{
-	height: 600px;
+
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.back-soc{
+	color: purple;
+	background-image: url(image/Header/soc.png);
+	background-size:cover;
+	height: 300px;
+	padding: 10px;
 	width: 100%;
-	border-radius: 30px;
-	background-color: #1e1f1e;
-	color: white;
 }
-.content-item h2{
-	margin: 30px auto;
-	padding: 20px 20px 5px 20px;
-	width: 90%;
-	border-bottom: 1px solid white;
+.back-soc h1{
+	margin-top: 40px;
+	letter-spacing: 5px;
+	font-size: 36pt;
 }
-.content-item img{
-	padding: 0 20%;
-	min-width: 70%
-	margin:auto;
+.back-soc h1,p{
+	cursor: default;
 }
-.content-item p{
-	width: 90%;
-	margin: 0 auto;
-	padding: 10px 20px 40px 20px;
-	border-top: 1px solid white;
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.back-prog{
+	background-image: url(image/Header/prog.jpg);
+	background-size:cover;
+	height: 300px;
+	padding: 10px;
+	width: 100%;
 }
-.content-item h1{
-	font-size: 128pt;
-	text-align: center;
+.back-prog h1{
+	margin-top: 40px;
+	letter-spacing: 5px;
+	font-size: 36pt;
+}
+.back-prog h1,p{
+	cursor: default;
 }
