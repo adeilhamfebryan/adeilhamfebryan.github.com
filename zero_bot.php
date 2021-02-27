@@ -9,6 +9,6 @@ $user='997271409';
 		return $result;
 	}
 
-kirim(<p>Halo anak anjeng</p>,$idbot,$user);
+kirim('<p>Halo anak anjeng</p>',$idbot,$user);
 
 ?>
